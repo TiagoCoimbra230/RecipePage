@@ -1,0 +1,10 @@
+/* Global */
+@import url(reset.css);
+@import url(utilitarios/global.css);
+
+/* Utilitários */
+@import url(utilitarios/cores.css);
+@import url(utilitarios/tipografia.css);
+
+/* Conteudo */
+@import url(conteudo/conteudo.css);

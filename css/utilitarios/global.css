@@ -1,0 +1,64 @@
+.bg{
+  background: var(--cor-c0);
+  max-width: 800px;
+  margin: 120px auto;
+  border-radius: 20px;
+}
+
+.content{
+  display: grid;
+  padding: 40px;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+h1{
+  padding-top: 10px;
+}
+
+h2{
+  padding-top: 10px;
+}
+
+/* Estilos Gerais Listas */
+
+.list-bol li{
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.list-bol li::before{
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--cor-p4);
+  left: -10px;
+  position: absolute;
+}
+
+.list-bol::before{
+  background: var(--cor-p3);
+}
+
+.list-number{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  flex-direction: column;
+  list-style:decimal;
+}
+
+.list-number li{
+  max-width: 58ch;
+  line-height: 20px;
+}
+
+.border-bot{
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}

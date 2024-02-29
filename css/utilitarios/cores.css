@@ -1,0 +1,46 @@
+:root {
+  --cor-c4: #2E2B2A;
+  --cor-c3: #615753;
+  --cor-c2: #413E3D ;
+  --cor-c1: #898683;
+  --cor-c0: #ffffff;
+  --cor-p4: #772B49;
+  --cor-p3: #7D3C30;
+  --cor-p2: #F3E5D8;
+  --cor-p1: #FFF7FC;
+}
+
+
+/* Cinza */
+.cor-c4{
+  color: #2E2B2A;
+}
+.cor-c3{
+  color: #615753;
+}
+.cor-c2{
+  color: #413E3D;
+}
+.cor-c1{
+  color: #898683;
+}
+.cor-c0{
+  color: #ffffff;
+}
+
+/* Cores Primarias */
+.cor-p4{
+ color: #772B49;
+}
+
+.cor-p3{
+  color: #7D3C30;
+}
+
+.cor-p2{
+  color: #F3E5D8;
+}
+
+.cor-p1{
+  color: #FFF7FC;
+} 
